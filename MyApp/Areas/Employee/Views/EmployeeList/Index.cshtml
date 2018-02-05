@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "Employee Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<table id="tblEmployee">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>EmpId</th>
+            <th>DeptID</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+
+@section scripts{
+<script src="~/Scripts/Employee/EmployeeList.js"></script>
+<script src="~/Scripts/DataTables/jquery.dataTables.min.js"></script>
+}
